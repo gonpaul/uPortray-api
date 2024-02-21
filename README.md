@@ -11,6 +11,7 @@
 ### How to use
 ```bash
 git clone git@github.com:gonpaul/uPortray-api.git
+cd uPortray-api
 npm i
 node index.js
 Artificial intelligence // it's an example, so peek whatever you want
