@@ -8,6 +8,9 @@
 - OpenAI API
 - Youtube Data v3 API
 
+### See use cases
+- [Computer Science](./test_examples/computer_science.md)
+
 ### How to use
 #### Prerequisites
 Set up API keys as environment variables.

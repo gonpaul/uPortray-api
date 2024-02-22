@@ -6,7 +6,9 @@ import { parseResponse } from "./src/utils/messageProcessing.js";
 import searchYouTubeVideosAsync from "./src/services/searchYouTubeVideosAsync.js";
 import { run } from "googleapis/build/src/apis/run/index.js";
 
-const openai = new OpenAI();
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
 
 const subject = rs.question("Enter the subject: ");
 // request completion from the API, no configurabable parameters
