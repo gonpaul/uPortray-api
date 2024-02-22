@@ -4,6 +4,7 @@ async function searchYouTubeVideosAsync(query) {
   const response = await youtube.search.list({
     part: 'snippet',
     q: query,
+    type: 'video',
     maxResults: 5,
   }).catch(err => console.error('error retrieving a list of videos', err));
 
