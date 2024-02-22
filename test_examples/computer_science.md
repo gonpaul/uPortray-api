@@ -38,53 +38,40 @@ Knowledge tree:
   - Management and analysis of large and complex datasets to extract valuable insights.
 
 
-[
-  {
-    name: 'Algorithms',
-    url: 'https://www.youtube.com/watch?v=SmyPTnlqhlk'
-  },
-  {
-    name: 'Data Structures',
-    url: 'https://www.youtube.com/watch?v=BBpAmxU_NQo'
-  },
-  {
-    name: 'Programming Paradigms',
-    url: 'https://www.youtube.com/watch?v=cgVVZMfLjEI'
-  },
-  {
-    name: 'Computer Architecture',
-    url: 'https://www.youtube.com/watch?v=-SADbPS8UgA'
-  },
-  {
-    name: 'Artificial Intelligence',
-    url: 'https://www.youtube.com/watch?v=RzkD_rTEBYs'
-  },
-  {
-    name: 'Computer Networks',
-    url: 'https://www.youtube.com/watch?v=WexBQ1XgaDw'
-  },
-  {
-    name: 'Software Engineering',
-    url: 'https://www.youtube.com/watch?v=Q0A35ZfgwHA'
-  },
-  {
-    name: 'Cybersecurity',
-    url: 'https://www.youtube.com/watch?v=bPVaOlJ6ln0'
-  },
-  {
-    name: 'Cryptography',
-    url: 'https://www.youtube.com/watch?v=6_Cxj5WKpIw'
-  },
-  {
-    name: 'Machine Learning',
-    url: 'https://www.youtube.com/watch?v=z-EtmaFJieY'
-  },
-  {
-    name: 'Human-Computer Interaction',
-    url: 'https://www.youtube.com/watch?v=pXCGkfoa07o'
-  },
-  {
-    name: 'Big Data',
-    url: 'https://www.youtube.com/watch?v=HRfR4dJoKDc'
-  }
-]
+
+- name: 'Algorithms',
+  url: 'https://www.youtube.com/watch?v=SmyPTnlqhlk'
+
+- name: 'Data Structures',
+  url: 'https://www.youtube.com/watch?v=BBpAmxU_NQo'
+
+- name: 'Programming Paradigms',
+  url: 'https://www.youtube.com/watch?v=cgVVZMfLjEI'
+
+- name: 'Computer Architecture',
+  url: 'https://www.youtube.com/watch?v=-SADbPS8UgA'
+
+- name: 'Artificial Intelligence',
+  url: 'https://www.youtube.com/watch?v=RzkD_rTEBYs'
+
+- name: 'Computer Networks',
+  url: 'https://www.youtube.com/watch?v=WexBQ1XgaDw'
+
+- name: 'Software Engineering',
+  url: 'https://www.youtube.com/watch?v=Q0A35ZfgwHA'
+
+- name: 'Cybersecurity',
+  url: 'https://www.youtube.com/watch?v=bPVaOlJ6ln0'
+
+- name: 'Cryptography',
+  url: 'https://www.youtube.com/watch?v=6_Cxj5WKpIw'
+
+- name: 'Machine Learning',
+  url: 'https://www.youtube.com/watch?v=z-EtmaFJieY'
+
+- name: 'Human-Computer Interaction',
+  url: 'https://www.youtube.com/watch?v=pXCGkfoa07o'
+
+- name: 'Big Data',
+  url: 'https://www.youtube.com/watch?v=HRfR4dJoKDc'
+
