@@ -34,6 +34,6 @@ Artificial intelligence // it's an example, so peek whatever you want
 
 ### Contribute.
 #### Features to build
-- [ ] implement user feedback for a chat gpt 3.5-turbo response
+- [x] implement user feedback for a chat gpt 3.5-turbo response
 - [ ] come up with a solid open ai api request template and design it
 - [ ] how to integrate links back into the initial acknowledged openai api response
