@@ -12,7 +12,7 @@
 - [Computer Science](./test_examples/computer_science.md)
 - [Artificial Intelligence](./test_examples/artificial_intelligence.md)
 
-[![asciicast](./money-bag.png)](https://asciinema.org/a/42eEBYnjXk8hNW842ej6a7WDY)
+[![asciicast](https://asciinema.org/a/SQ4BxTM1VX1Jr2DgpdEO75srv.svg)](https://asciinema.org/a/42eEBYnjXk8hNW842ej6a7WDY)
 
 ### How to use
 #### Prerequisites
