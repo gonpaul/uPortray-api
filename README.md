@@ -10,6 +10,8 @@
 
 ### See use cases
 - [Computer Science](./test_examples/computer_science.md)
+- [Artificial Intelligence](./test_examples/artificial_intelligence.md)
+
 
 ### How to use
 #### Prerequisites
