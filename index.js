@@ -55,15 +55,15 @@ let validationCounter = 0;
 let content = await runCompletion(userMessage).catch(err => console.error('runCompletion error',err));
 
 let usersValidation = rs.question("Is the outline good? (yes/no): ");
-while (usersValidation === "no" && validationCounter < 3) {
+while (usersValidation !== "yes" && validationCounter < 3) {
   // console.log("Invalid input");
   const change = rs.question("What do you want to change? ");
-  content = await runCompletion(change).catch(err => console.error(err));
+  content = await runCompletion('Based on previous chats, apply the next change', change).catch(err => console.error(err));
   usersValidation = rs.question("Is the outline good? (yes/no): ");
   validationCounter++;
 }
 
-// PARSIING THE RESPONSE
+// PARSING THE RESPONSE
 const subjectItems = parseResponse(content);
 console.log(subjectItems);
 
