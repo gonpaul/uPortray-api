@@ -12,6 +12,7 @@
 - [Computer Science](./test_examples/computer_science.md)
 - [Artificial Intelligence](./test_examples/artificial_intelligence.md)
 
+[![asciicast](./money-bag.png)](https://asciinema.org/a/42eEBYnjXk8hNW842ej6a7WDY)
 
 ### How to use
 #### Prerequisites
@@ -37,5 +38,7 @@ Artificial intelligence // it's an example, so peek whatever you want
 ### Contribute.
 #### Features to build
 - [x] implement user feedback for a chat gpt 3.5-turbo response
-- [ ] come up with a solid open ai api request template and design it
+- [50/50] come up with a solid open ai api request template and design it
+- [ ] abort the programm if it waits for the openai response for more then 4-5 seconds
+- [20/100] implement a decent algorithm that deals with changing the outline
 - [ ] how to integrate links back into the initial acknowledged openai api response

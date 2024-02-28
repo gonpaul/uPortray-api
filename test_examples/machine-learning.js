@@ -3,7 +3,9 @@ export const machineLearning =
 'Machine learning\n' +
 '=outline=\n' +
 'Purpose: To enable machines to learn from data and perform tasks without explicit programming.\n' +
+'\n' +
 'Meaning: It is a subset of artificial intelligence that focuses on the development of algorithms that allow computers to evolve behaviors based on empirical data.\n' +
+'\n' +
 'Importance: Machine learning has revolutionized various industries by making predictions, recognizing patterns, and automating processes based on data-driven insights.\n' +
 '\n' +
 'Knowledge tree:\n' +

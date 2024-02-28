@@ -1,6 +1,5 @@
 import OpenAI from "openai";
 import rs from "readline-sync";
-import { machineLearning } from "./test_examples/machine-learning.js";
 import { knowledgeTree } from "./src/models/knowledgeTree.js";
 import { parseResponse } from "./src/utils/messageProcessing.js";
 import searchYouTubeVideosAsync from "./src/services/searchYouTubeVideosAsync.js";
@@ -11,7 +10,7 @@ const openai = new OpenAI({
 
 const subject = rs.question("Enter the subject: ");
 const userMessage = `${knowledgeTree}
-` + `/n =usersSubject= ${subject}`
+` + `/n =Subject= ${subject}`
 // request completion from the API, no configurabable parameters
 let conversationHistory = [];
 
