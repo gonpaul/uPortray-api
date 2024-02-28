@@ -1,10 +1,13 @@
-# subject
+Subject
 Artificial Intelligence
 
-## outline
+Outline
 Name: Understanding the concept and applications of Artificial Intelligence
+
 Purpose: To simulate human intelligence in machines to perform tasks that typically require human intelligence such as visual perception, speech recognition, decision-making, and translation between languages.
+
 Meaning: Artificial Intelligence is a branch of computer science that involves creating machines capable of performing tasks that typically require human intelligence. It encompasses various subfields such as machine learning, natural language processing, robotics, and computer vision.
+
 Importance: Artificial Intelligence has the potential to drive innovation, improve efficiency, and solve complex problems across different industries.
 
 Knowledge tree:

@@ -3,7 +3,9 @@ Computer Science
 
 Outline:
 Purpose: To study and understand algorithms and data structures, computational processes, and the design and development of software and hardware systems.
+
 Meaning: Computer science is the study of computers, their application, and the processes that create, store, and process data.
+
 Importance: Computer science plays a vital role in various industries, such as technology, finance, healthcare, and entertainment. It enables advancements in technology, innovation, and problem-solving.
 
 Knowledge tree:
