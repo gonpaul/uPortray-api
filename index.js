@@ -9,14 +9,12 @@ const openai = new OpenAI({
 });
 
 const subject = rs.question("Enter the subject: ");
-const userMessage = `${knowledgeTree}
-` + `/n =Subject= ${subject}`
 // request completion from the API, no configurabable parameters
-let conversationHistory = [];
+let conversationHistory = [{ role: 'system', content: knowledgeTree }];
 
-async function runCompletion(userMessage) {
+async function runCompletion(subject) {
   // Add the user's message to the conversation history
-  conversationHistory.push({ role: "user", content: userMessage });
+  conversationHistory.push({ role: "user", content: subject });
 
   const response = await openai.chat.completions.create({
     messages: conversationHistory,
@@ -28,7 +26,7 @@ async function runCompletion(userMessage) {
   const resultContent = response.choices[0].message;
   conversationHistory.push({ role: "assistant", content: resultContent.content });
 
-  console.log(response.choices[0].message); // it's better to display content right away
+  console.log(response.choices[0].message.content); // it's better to display content right away
   return resultContent.content;
 }
 
@@ -51,7 +49,7 @@ async function runCompletion(userMessage) {
 // 
 
 let validationCounter = 0;
-let content = await runCompletion(userMessage).catch(err => console.error('runCompletion error',err));
+let content = await runCompletion(subject).catch(err => console.error('runCompletion error',err));
 
 let usersValidation = rs.question("Is the outline good? (yes/no): ");
 while (usersValidation !== "yes" && validationCounter < 3) {
@@ -64,7 +62,7 @@ while (usersValidation !== "yes" && validationCounter < 3) {
 
 // PARSING THE RESPONSE
 const subjectItems = parseResponse(content);
-console.log(subjectItems);
+// console.log(subjectItems);
 
 // SEARCHING YOUTUBE VIDEOS
 for (const { name } of subjectItems) {
@@ -75,7 +73,7 @@ for (const { name } of subjectItems) {
           item.url = videoUrl;
         }
       })
-      console.log(`Most liked ${name} video`, videoUrl);
+      console.log(`${name} video`, videoUrl);
     })
     .catch(error => console.error('Error:', error));
 }
