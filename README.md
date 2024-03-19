@@ -11,6 +11,8 @@
 ### See use cases
 - [Computer Science](./test_examples/computer_science.md)
 - [Artificial Intelligence](./test_examples/artificial_intelligence.md)
+- [Machine-learning](./test_examples/machine_learning.md)
+- [Mathematics](./test_examples/mathematics.md)
 
 [![asciicast](https://asciinema.org/a/42eEBYnjXk8hNW842ej6a7WDY.svg)](https://asciinema.org/a/42eEBYnjXk8hNW842ej6a7WDY)
 
